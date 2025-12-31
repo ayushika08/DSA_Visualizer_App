@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DSA Visualizer App
 
-## Getting Started
+A modern, interactive web application built with **Next.js** and **TypeScript** to visualize various Data Structures and Algorithms. This tool is designed to help students and developers understand how algorithms work under the hood through dynamic animations and detailed explanations.
 
-First, run the development server:
+![Project Preview](public/window.svg)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔢 Sorting Algorithms
+Visualize step-by-step execution of popular sorting algorithms:
+- **Bubble Sort**: Watch elements "bubble" up to their correct positions.
+- **Selection Sort**: See how the minimum element is selected and placed.
+- **Insertion Sort**: Visualize building the sorted array one item at a time.
+- **Merge Sort**: Understand the "Divide and Conquer" strategy.
+- **Quick Sort**: Visualize partitioning and recursive sorting.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🔗 Data Structures
+- **Linked Lists**:
+  - **Traversal**: Step through each node in the list.
+  - **Search**: Visualize the linear search process to find a target value.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎛️ Interactive Controls
+- **Play/Pause**: Control the flow of the visualization.
+- **Speed Control**: Adjust the animation speed to your preference.
+- **Array Size**: Change the number of elements to sort.
+- **Randomize**: Generate new random datasets instantly.
 
-## Learn More
+### 📚 Theory & Analysis
+- **Real-time Descriptions**: See exactly what the algorithm is doing at each step (e.g., "Compare 5 and 3", "Swap elements").
+- **Complexity Analysis**: View Big-O notation for Time (Best, Average, Worst) and Space complexity for each algorithm.
+- **Mechanism Explanations**: Brief summaries of how the selected algorithm operates.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Getting Started
 
-## Deploy on Vercel
+Follow these steps to set up the project locally.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/ayushika08/DSA_Visualizer_App.git
+    cd DSA_Visualizer_App
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to add more algorithms (e.g., Heap Sort, Dijkstra's, BFS/DFS) or improve the UI:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
